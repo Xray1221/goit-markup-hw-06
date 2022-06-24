@@ -503,7 +503,7 @@ body {
     margin-left: 10px;
 }
 .button-submit {
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     color: var(--white-color);
@@ -651,11 +651,6 @@ body {
     outline-width: 0;
     border-color: var(--active-color);
 }
-.checkbox-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
 .checkbox-text {
     font-weight: 400;
     font-size: 14px;
@@ -679,6 +674,11 @@ body {
     height: 15px;
     border-radius: 2px;
     border: 2px solid #212121;
+}
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .input-label:checked + .checkbox-icon {
     background-color: var(--active-color);
